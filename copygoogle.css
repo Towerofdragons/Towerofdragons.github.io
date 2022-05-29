@@ -1,9 +1,9 @@
-#test-nav
+.test-nav
 {
     text-align: end;
     padding: 3px;
 }
-.item 
+.item /*this styles the items in the top right nav bar*/
 {
     color: black;
     padding:5px;
@@ -43,13 +43,10 @@
     
     width:100%;
     place-items: center;
-    
-    
-    
 
 }
 
-#img2 /*holds the google logo as a background*/
+#img2 /*holds the google logo as a background */
 {
     width:60%;
     min-width: 320px;
