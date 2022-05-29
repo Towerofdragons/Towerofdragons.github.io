@@ -1,22 +1,26 @@
-.test-nav
+/*copygoogle.css does not copy anything from google's search pages*/
+/*This file contains styling for all of the pages*/
+
+.page-nav /*Styles the nav bar on the top right*/
 {
     text-align: end;
     padding: 3px;
 }
 .item /*this styles the items in the top right nav bar*/
 {
-    color: black;
+    color: rgb(119, 119, 119);
     padding:5px;
     text-decoration: none;
+    font-weight: 500;
 }
 
-.flexible
+.flexible /*defines flexibility of the assigned element*/
 {
     display:flex;
     flex-direction: column;
 }
 
-.flexible_advanced
+.flexible_advanced /*defines flexibility of the assigned element*/
 {
     display:flex;
     flex-direction: row;
@@ -25,16 +29,13 @@
 }
 
 
-.container2 
+.container2 /*styling for the google logo container*/
 {
-    
-    
+        
     justify-content: center;
     place-items: center;
     height:500px;
     width: 100%;
-   
-       
 
 }
 
